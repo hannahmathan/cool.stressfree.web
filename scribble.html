@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scribble Therapy</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>✏️ Scribble Therapy</h1>
+
+<p>Draw anything. No one is judging you. 💙</p>
+
+<div class="toolbar">
+    <input type="color" id="colorPicker" value="#000000">
+
+    <input type="range" id="brushSize"
+           min="2"
+           max="30"
+           value="5">
+
+    <button onclick="clearCanvas()">🧹 Clear</button>
+
+    <a href="index.html">
+        <button>🏠 Home</button>
+    </a>
+</div>
+
+<canvas id="canvas"></canvas>
+
+<script src="scribble.js"></script>
+
+</body>
+</html>
