@@ -27,3 +27,26 @@ button {
 button:hover {
     background: #45a049;
 }
+canvas{
+
+    border:4px solid #7ec8e3;
+
+    background:white;
+
+    border-radius:15px;
+
+    cursor:crosshair;
+
+}
+
+.toolbar{
+
+    margin:20px;
+
+}
+
+.toolbar button{
+
+    margin:10px;
+
+}
