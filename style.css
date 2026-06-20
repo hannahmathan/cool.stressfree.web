@@ -50,3 +50,22 @@ canvas{
     margin:10px;
 
 }
+svg{
+
+margin-top:30px;
+
+}
+
+.petal{
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.petal:hover{
+
+transform:scale(1.1);
+
+}
