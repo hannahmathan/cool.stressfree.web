@@ -310,3 +310,18 @@ transform:translateY(-4px);
 background:#6ec6ff;
 
 }
+@keyframes float{
+
+0%{transform:translateY(0px);}
+
+50%{transform:translateY(-6px);}
+
+100%{transform:translateY(0px);}
+
+}
+
+.card{
+
+animation:float 4s infinite;
+
+}
