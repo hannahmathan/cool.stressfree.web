@@ -401,7 +401,7 @@ transition:.35s;
 
 transform:translateY(-12px) scale(1.03);
 
-box-shadow:0 20px 40px rgba(0,0,0,.2);
+box-shadow:0 25px 45px rgba(59,130,246,.25);
 
 }
 }
@@ -546,4 +546,19 @@ background-position:left;
 
 }
 
+}
+.hero{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.subtitle{
+    font-size:22px;
+    color:#555;
+    margin-bottom:35px;
+}
+
+.heroBtn{
+    font-size:20px;
+    padding:18px 45px;
 }
