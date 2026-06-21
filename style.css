@@ -379,8 +379,31 @@ a{
     transition:.3s;
 }
 
+.card{
+
+background:white;
+
+width:300px;
+
+padding:25px;
+
+margin:20px;
+
+border-radius:25px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+transition:.35s;
+
+}
+
 .card:hover{
-    transform:translateY(-8px);
+
+transform:translateY(-12px) scale(1.03);
+
+box-shadow:0 20px 40px rgba(0,0,0,.2);
+
+}
 }
 
 .grid{
@@ -409,4 +432,39 @@ footer{
     margin-top:70px;
     padding:30px;
     background:white;
+}
+/* HERO */
+
+.hero{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+.subtitle{
+
+font-size:24px;
+
+margin-bottom:35px;
+
+color:#555;
+
+}
+
+.heroBtn{
+
+font-size:22px;
+
+padding:18px 45px;
+
+background:#60A5FA;
+
+}
+
+.heroBtn:hover{
+
+background:#3B82F6;
+
 }
