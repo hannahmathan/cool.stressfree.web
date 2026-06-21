@@ -495,3 +495,38 @@ background:#ECFCCB;
 .memory{
 background:#EDE9FE;
 }
+body{
+
+background:
+linear-gradient(
+180deg,
+#F8FAFC,
+#DBEAFE);
+
+background-size:400% 400%;
+
+animation:bgMove 15s infinite;
+
+}
+
+@keyframes bgMove{
+
+0%{
+
+background-position:left;
+
+}
+
+50%{
+
+background-position:right;
+
+}
+
+100%{
+
+background-position:left;
+
+}
+
+}
