@@ -325,3 +325,88 @@ background:#6ec6ff;
 animation:float 4s infinite;
 
 }
+/* ===========================
+   VERSION 2.0 UI
+=========================== */
+
+body{
+    background:linear-gradient(180deg,#F8FAFC,#DBEAFE);
+    font-family:'Segoe UI',sans-serif;
+    color:#374151;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-size:52px;
+    margin-top:40px;
+    color:#2563EB;
+}
+
+p{
+    font-size:20px;
+}
+
+button{
+    background:#7DD3FC;
+    color:#fff;
+    border:none;
+    padding:15px 30px;
+    border-radius:50px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+    margin:10px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+button:hover{
+    transform:translateY(-5px);
+    background:#38BDF8;
+}
+
+a{
+    text-decoration:none;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    width:280px;
+    padding:25px;
+    margin:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:40px;
+}
+
+nav{
+    background:white;
+    padding:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav a{
+    margin:15px;
+    font-weight:bold;
+    color:#2563EB;
+}
+
+footer{
+    margin-top:70px;
+    padding:30px;
+    background:white;
+}
