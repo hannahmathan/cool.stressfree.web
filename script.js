@@ -1,12 +1,17 @@
-function showQuote() {
-    const quotes = [
-        "🌸 You are enough.",
-        "☀️ One step at a time.",
-        "💙 Take a deep breath.",
-        "🌿 Every day is a fresh start.",
-        "✨ Believe in yourself!"
-    ];
+const greetings=[
 
-    const random = Math.floor(Math.random() * quotes.length);
-    alert(quotes[random]);
-}
+"🌸 Welcome! Ready to relax?",
+
+"💙 Take a deep breath and choose an activity.",
+
+"🌿 Your peaceful space is waiting.",
+
+"✨ Relax. Recharge. Smile.",
+
+"😊 Today is a good day to unwind."
+
+];
+
+document.getElementById("welcomeText").innerHTML=
+
+greetings[Math.floor(Math.random()*greetings.length)];
